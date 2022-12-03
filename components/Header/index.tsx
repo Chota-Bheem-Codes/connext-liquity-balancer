@@ -1,4 +1,5 @@
 import React from "react";
+import UploadForm from "../Form/UploadForm";
 import Navbar from "../Navbar";
 import Wallet from "../Wallet";
 
@@ -7,7 +8,7 @@ type Props = {};
 const Header = (props: Props) => {
   return (
     <>
-      <div className="w-full px-10 flex justify-right">
+      <div className="flex w-full px-10 justify-right">
         <Navbar />
       </div>
     </>
