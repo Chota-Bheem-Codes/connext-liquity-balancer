@@ -4,7 +4,6 @@ import Navbar from "../Navbar";
 import Wallet from "../Wallet";
 
 type Props = {};
-
 const Header = (props: Props) => {
   return (
     <>
